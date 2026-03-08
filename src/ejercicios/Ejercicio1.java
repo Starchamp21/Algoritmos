@@ -34,6 +34,8 @@ public class Ejercicio1 {
 
         System.out.println("Máximo: " + max);
         System.out.println("Tiempo ejecución: " + Duration.between(inicio, fin).toMillis() + " ms");
+        System.out.println("Fecha y hora de inicio: " + inicio);
+        System.out.println("Fecha y hora de fin: " + fin);
     }
 }
 
