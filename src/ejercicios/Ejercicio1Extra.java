@@ -55,12 +55,13 @@ public class Ejercicio1Extra {
             int key = array[i];
             int j = i - 1;
 
+            // Muevo los elementos mayores que key hacia la derecha.
             while (j >= 0 && array[j] > key) {
                 array[j + 1] = array[j];
                 j--;
             }
 
-            array[j + 1] = key;
+            array[j + 1] = key; // Inserto key en su posición correcta.
         }
 
         return array;
